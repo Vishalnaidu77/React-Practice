@@ -3,3 +3,7 @@
 .bottomSection{
     background: linear-gradient(to bottom, transparent, rgba(46, 46, 46, 0.521));
 }
+
+.g{
+    background-color: #e6e6e656;
+}

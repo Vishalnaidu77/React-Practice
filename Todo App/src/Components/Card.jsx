@@ -5,8 +5,7 @@ const Card = ({ name, imageURL, position, description, id, allUser, setAllUser }
     const deleteElem = () => {
         const copyUser = [...allUser]
         copyUser.splice(id, 1)
-        localStorage.removeItem(allUser[id])
-
+        localStorage.setItem('all-user', JSON.stringify(copyUser))
         setAllUser(copyUser)
     }
 
